@@ -11,7 +11,7 @@ import Projects from "../components/Projects";
 export default function Home() {
   const [lang, setLang] = useState("en");
 
-  const liveDemoUrl = "https://job-application-tracker-khq53zsee-ben-bouhdanas-projects.vercel.app/";
+  const liveDemoUrl = "https://job-application-tracker-benb.vercel.app/";
   const githubRepoUrl = "https://github.com/BB885/Job-Application-Tracker";
 
   const spokenLanguages = [

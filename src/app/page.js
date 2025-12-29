@@ -37,10 +37,10 @@ export default function Home() {
 
         <Projects
           title={t.projectsTitle}
-          project={t.project}
-          liveUrl={liveDemoUrl}
-          githubUrl={githubRepoUrl}
+          projects={t.projects}
+          trackerLiveUrl={liveDemoUrl}
         />
+
 
         <section className="mt-12 grid gap-5 md:grid-cols-2">
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6">

@@ -29,7 +29,7 @@ export const COPY = {
         title: "Hockey Odds Calculator",
         description:
           "Python-based tool that computes hockey win probabilities using aggregated data from external APIs. Includes data cleaning and a probability model to generate implied odds.",
-        liveText: "GitHub",
+        liveText: "Demo",
         githubText: "GitHub",
         hint: "Data parsing + probability modeling in Python",
         tags: ["Python", "APIs", "Data Cleaning"],
@@ -73,7 +73,7 @@ export const COPY = {
         title: "Calculateur de cotes (hockey)",
         description:
           "Outil Python qui calcule des probabilités de victoire à partir de données agrégées via des API. Inclut le nettoyage des données et un modèle de probabilités simple pour produire des cotes.",
-        liveText: "GitHub",
+        liveText: "Démo",
         githubText: "GitHub",
         hint: "Analyse de données + modèle de probabilités en Python",
         tags: ["Python", "API", "Nettoyage de données"],

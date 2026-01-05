@@ -33,8 +33,8 @@ export const COPY = {
         githubText: "GitHub",
         hint: "Data parsing + probability modeling in Python",
         tags: ["Python", "APIs", "Data Cleaning"],
-        liveUrlKey: null,
-        githubUrl: "PASTE_HOCKEY_REPO_URL_HERE",
+        liveUrlKey: "hockey",
+        githubUrl: "https://github.com/BB885/hockey-odds-calculator",
       },
     ],
 
@@ -77,8 +77,8 @@ export const COPY = {
         githubText: "GitHub",
         hint: "Analyse de données + modèle de probabilités en Python",
         tags: ["Python", "API", "Nettoyage de données"],
-        liveUrlKey: null,
-        githubUrl: "PASTE_HOCKEY_REPO_URL_HERE",
+        liveUrlKey: "hockey",
+        githubUrl: "https://github.com/BB885/hockey-odds-calculator",
       },
     ],
 

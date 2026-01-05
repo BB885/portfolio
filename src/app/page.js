@@ -13,6 +13,7 @@ export default function Home() {
 
   const liveDemoUrl = "https://job-application-tracker-benb.vercel.app/";
   const githubRepoUrl = "https://github.com/BB885/Job-Application-Tracker";
+  const hockeyLiveUrl = "https://hockey-odds-calculator-rzdn.vercel.app";
 
   const spokenLanguages = [
     { en: "English — Fluent", fr: "Anglais — Courant" },
@@ -39,6 +40,7 @@ export default function Home() {
           title={t.projectsTitle}
           projects={t.projects}
           trackerLiveUrl={liveDemoUrl}
+          hockeyLiveUrl={hockeyLiveUrl}
         />
 
 

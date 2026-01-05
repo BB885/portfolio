@@ -78,7 +78,7 @@ export const COPY = {
         hint: "Analyse de données + modèle de probabilités en Python",
         tags: ["Python", "API", "Nettoyage de données"],
         liveUrlKey: "hockey",
-        githubUrl: "PASTE_HOCKEY_REPO_URL_HERE",
+        githubUrl: "https://github.com/BB885/hockey-odds-calculator",
       },
     ],
 

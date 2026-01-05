@@ -1,13 +1,18 @@
 import ProjectCard from "./ProjectCard";
 
-export default function Projects({ title, projects, trackerLiveUrl }) {
+export default function Projects({ title, projects, trackerLiveUrl, hockeyLiveUrl }) {
   return (
     <section className="mt-12">
       <h2 className="text-xl font-semibold">{title}</h2>
 
       <div className="mt-6 grid gap-5">
         {projects.map((p) => {
-          const liveUrl = p.liveUrlKey === "tracker" ? trackerLiveUrl : p.githubUrl;
+          const liveUrl =
+            p.liveUrlKey === "tracker"
+              ? trackerLiveUrl
+              : p.liveUrlKey === "hockey"
+              ? hockeyLiveUrl
+              : p.liveUrl;
 
           return (
             <ProjectCard

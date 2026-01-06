@@ -36,6 +36,18 @@ export const COPY = {
         liveUrlKey: "hockey",
         githubUrl: "https://github.com/BB885/hockey-odds-calculator",
       },
+      {
+        title: "Notes Web Application",
+        description:
+          "Django-based notes application with category management, search, and filtering. Dockerized and deployed using a CI/CD pipeline built with Azure DevOps and Azure App Service.",
+        liveText: "Demo",
+        githubText: "Private Repo",
+        hint: "Dockerized app with CI/CD via Azure DevOps",
+        tags: ["Django", "Docker", "Azure DevOps", "CI/CD", "Azure"],
+        liveUrlKey: "notes",
+        githubUrl: null,
+        githubText: "Private Repo",
+      },
     ],
 
     languagesTitle: "Languages",
@@ -79,6 +91,18 @@ export const COPY = {
         tags: ["Python", "API", "Nettoyage de données"],
         liveUrlKey: "hockey",
         githubUrl: "https://github.com/BB885/hockey-odds-calculator",
+      },
+      {
+        title: "Application de prise de notes",
+        description:
+          "Application Django avec gestion des catégories, recherche et filtrage. Conteneurisée avec Docker et déployée via un pipeline CI/CD utilisant Azure DevOps et Azure App Service.",
+        liveText: "Démo",
+        githubText: "Dépôt privé",
+        hint: "Application Dockerisée avec CI/CD via Azure DevOps",
+        tags: ["Django", "Docker", "Azure DevOps", "CI/CD", "Azure"],
+        liveUrlKey: "notes",
+        githubUrl: null,
+        githubText: "Repo Privée",
       },
     ],
 

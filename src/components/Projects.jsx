@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
 
-export default function Projects({ title, projects, trackerLiveUrl, hockeyLiveUrl }) {
+export default function Projects({ title, projects, trackerLiveUrl, hockeyLiveUrl, notesLiveUrl,}) {
   return (
     <section className="mt-12">
       <h2 className="text-xl font-semibold">{title}</h2>
@@ -12,7 +12,9 @@ export default function Projects({ title, projects, trackerLiveUrl, hockeyLiveUr
               ? trackerLiveUrl
               : p.liveUrlKey === "hockey"
               ? hockeyLiveUrl
-              : p.liveUrl;
+              : p.liveUrlKey === "notes"
+              ? notesLiveUrl
+              : p.githubUrl;
 
           return (
             <ProjectCard
